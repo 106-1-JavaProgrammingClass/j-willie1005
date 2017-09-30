@@ -6,7 +6,9 @@ public class hw06 {
         // write your code here
         Scanner scn = new Scanner(System.in);
         String str = scn.nextLine();
-        char ch = ',';
-        System.out.println(str.replace());
+        char ch1 = ',';
+        char ch2 = '#';
+        System.out.println(str.replace( ',',  '\n'));
+        System.out.println(str.replace( '#',  '\n'));
     }
 }

@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class hw02 {
+public class hw15 {
 
     public static void main(String[] args) {
         // write your code here
         Scanner scn = new Scanner(System.in);
-        int v1 = scn.nextInt();//攝氏溫度
-        System.out.println(Math.round(v1*9/5+32));
+        String str = scn.next();
+        int v1 = Integer.valueOf(str,16);
+        System.out.println((char)v1);
     }
 }
